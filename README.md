@@ -89,6 +89,6 @@ Cada comisión puede proponer otras ideas siempre que cumplan con la estructura 
 
 La estructura de este repositorio dado como ejemplo fue tomado del siguiente repositorio:
 
-[Simple Monorepo Setup With React.js (Vite) And Express.js](https://github.com/dstamenkovic/react-express-starter)
+[Simple Monorepo Setup With React.js (Vite) And Express.js](https://github.com/dstamenkovic/react-express-starter) y [este](https://dusanstam.com/posts/react-express-monorepo) post.
 
 Puede utilizarse de esta manera o pueden eliminarlo por completo y aplicar su propia estructura de carpetas y organización del proyecto deseada.
