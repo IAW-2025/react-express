@@ -85,7 +85,7 @@ Cada comisión puede proponer otras ideas siempre que cumplan con la estructura 
 - **Calidad del Código:** Organización, legibilidad y uso de buenas prácticas de programación.
 - **Diseño y UX:** Atractivo visual y facilidad de uso de la aplicación.
 
-## Nota final
+## Nota Final
 
 La estructura de este repositorio dado como ejemplo fue tomado del siguiente repositorio:
 
