@@ -7,13 +7,8 @@
     "dev": "nodemon",
     "test": "jest --watchAll",
     "build": "tsc",
-    "start": "node dist/server.js",
-    "prepare": "npm run build"
+    "start": "node dist/server.js"
   },
-  "files": [
-    "dist",
-    "package.json"
-  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
