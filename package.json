@@ -1,22 +1,15 @@
 {
-  "name": "react-express-starter",
+  "name": "proyecto-1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Full-stack application with React frontend and Express backend",
   "scripts": {
-    "backend": "npm run dev -w backend",
-    "frontend": "npm run dev -w frontend",
-    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
-    "test:backend": "npm test -w backend",
-    "test:frontend": "npm test -w frontend"
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "build": "cd frontend && npm run build && cd ../backend && npm run build",
+    "build:prod": "NODE_ENV=production npm run build",
+    "start": "cd backend && npm start",
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\""
   },
-  "author": "dstamenkovic",
-  "license": "ISC",
-  "workspaces": [
-    "backend",
-    "frontend"
-  ],
-  "devDependencies": {
+  "dependencies": {
     "concurrently": "^8.2.2"
   }
 }
